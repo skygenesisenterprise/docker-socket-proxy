@@ -41,7 +41,7 @@ docker run -d --privileged \
   --name dockerproxy \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -p 127.0.0.1:2375:2375 \
-  tecnativa/docker-socket-proxy
+  skygenesisenterprise/docker-socket-proxy
 ```
 
 ### 🔧 Connect Your Services
